@@ -1,0 +1,27 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Q版泛用皮.moc3",
+		"Textures": [
+			"Q版泛用皮.4096/texture_00.png",
+			"Q版泛用皮.4096/texture_01.png"
+		],
+		"Physics": "Q版泛用皮.physics3.json",
+		"DisplayInfo": "Q版泛用皮.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
